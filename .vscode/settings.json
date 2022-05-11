@@ -1,0 +1,15 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.rules.customizations": [
+        {
+            "rule": "*",
+            "severity": "warn"
+        }
+    ],
+    "eslint.validate": [
+        "javascript"
+    ],
+    "editor.fontSize": 11
+}
