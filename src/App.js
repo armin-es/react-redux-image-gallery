@@ -59,7 +59,7 @@ const App = () => {
       <>
           {photos.length > 0
             ? <ResponsiveMasonry columnsCountBreakPoints={{480: 2, 900: 5}}>
-              <Masonry gutter={20}>
+              <Masonry gutter="1rem">
                 {photos?.map(photo => {
                   return(
                   <div key={photo.data[0].nasa_id} className="masonry-item">
